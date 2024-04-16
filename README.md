@@ -1,4 +1,4 @@
-Install Docker Ubuntu
+# Install Docker Ubuntu
 
 The script is used to install docker on your ubuntu machine.
 
