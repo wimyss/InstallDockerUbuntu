@@ -7,7 +7,7 @@ The script is used to install docker on your ubuntu machine.
 Copy this command into your terminal : 
 
 ```
-sudo wget -O - https://raw.githubusercontent.com/wimyss/InstallDockerUbuntu/main/ubuntu-s.sh
+sudo wget -O - https://raw.githubusercontent.com/wimyss/InstallDockerUbuntu/main/ubuntu-s.sh | sudo bash
 ```
 # Other options
 
