@@ -17,6 +17,8 @@ echo \
 sudo apt-get update 
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y" > s.sh && chmod u+x s.sh && ./s.sh 
 
+rm s.sh
+
 docker run hello-world
 
 clear
