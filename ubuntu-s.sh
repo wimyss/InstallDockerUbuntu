@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt update && apt upgrade -y
+DEBIAN_FRONTEND=noninteractive apt update && apt upgrade -y
 
 touch s.sh && echo "# Add Docker's official GPG key:
 sudo apt-get update
